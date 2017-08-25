@@ -1,0 +1,6 @@
+[package]
+name = "min_region"
+version = "0.1.0"
+authors = ["ukitaka <ukitaka@linecorp.com>"]
+
+[dependencies]
