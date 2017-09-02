@@ -36,6 +36,8 @@ pub enum Pattern {
 }
 
 pub enum Expr<'a> {
+    Const(Constant),
+    Var(Var),
     Let {
         pattern: Pattern,
         expr: &'a Expr<'a>,
